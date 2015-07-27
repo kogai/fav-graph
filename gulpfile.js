@@ -18,17 +18,17 @@ var config = {
 	env: 'development',
 	src: {
 		client: {
-			root: './statics/src'
-,			images: './statics/src/images'
-,			views: './statics/src/views'
-,			sass: './statics/src/sass'
+			root: './src/statics'
+,			images: './src/statics/images'
+,			views: './src/statics/views'
+,			sass: './src/statics/sass'
 		},
 		server: './src'
 	},
 	dest: {
 		client: {
-			root: './statics/public'
-,			images: './statics/public/images'
+			root: './build/public'
+,			images: './build/public/images'
 		},
 		server: './build'
 	}
