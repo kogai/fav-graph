@@ -9,9 +9,6 @@
   "ecmaFeatures": {
     "jsx": true
   },
-  "plugins": [
-    "react"
-  ],
   "globals": {
     "React": true
   },
